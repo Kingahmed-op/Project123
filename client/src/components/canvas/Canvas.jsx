@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react"; //captcha
 import CanvasDraw from "react-canvas-draw";
 import Modal from 'react-modal';
 import { createWorker } from "tesseract.js"
-import { Buffer } from 'buffer';
+import { Buffer } from 'buffer'; //captcha
 
 const customStyles = {
   content: {

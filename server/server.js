@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
-require("dotenv").config();
+require("dotenv").config({path: '.env.example'});
 const DBURL = process.env.MONGODB_URL;
 const PORT = process.env.PORT;
 const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;

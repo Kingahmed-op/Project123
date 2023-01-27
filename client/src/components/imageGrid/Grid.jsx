@@ -8,7 +8,7 @@ import "react-loading-skeleton/dist/skeleton.css";
 
 const Grid = (props) => {
   const Box1 = ({ children }) => (
-    <a
+    <a href="#/"
       style={{
         //border: "1px solid #ccc",
         display: "block",
@@ -21,7 +21,7 @@ const Grid = (props) => {
   );
 
   const Box2 = ({ children }) => (
-    <a
+    <a href="#/"
       style={{
         border: "1px solid #ccc",
         display: "block",
